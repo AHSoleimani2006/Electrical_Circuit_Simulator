@@ -7,7 +7,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 add_compile_definitions(GLEW_STATIC)
 
 add_executable(OOP_Phase2_complete
-        # Your main project file
+        # Main project files
         ProjectMainFile.cpp
         save_load.cpp
 
@@ -17,7 +17,7 @@ add_executable(OOP_Phase2_complete
         dependencies/imgui-master/imgui_tables.cpp
         dependencies/imgui-master/imgui_widgets.cpp
 
-        # NEW: Add the demo window source file
+        # Demo window source file
         dependencies/imgui-master/imgui_demo.cpp
 
         # Backend source files
@@ -33,10 +33,7 @@ add_executable(OOP_Phase2_complete
 )
 
 target_include_directories(OOP_Phase2_complete PRIVATE
-        # NEW: Add the vendor directory for Cereal and PFD
         ${CMAKE_CURRENT_SOURCE_DIR}/vendor
-
-        # Existing directories
         ${CMAKE_CURRENT_SOURCE_DIR}/dependencies/imgui-master
         ${CMAKE_CURRENT_SOURCE_DIR}/dependencies/imgui-master/backends
         ${CMAKE_CURRENT_SOURCE_DIR}/dependencies/implot-master
@@ -56,7 +53,7 @@ target_link_libraries(OOP_Phase2_complete PRIVATE
         opengl32
 )
 
-# NEW: Link system libraries needed for Portable File Dialogs on Windows
+# Link system libraries needed for Portable File Dialogs on Windows
 if(WIN32)
     target_link_libraries(OOP_Phase2_complete PRIVATE
             Comdlg32
