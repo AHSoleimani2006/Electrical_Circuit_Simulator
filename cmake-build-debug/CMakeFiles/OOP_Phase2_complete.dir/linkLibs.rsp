@@ -1,0 +1,1 @@
+  -L"C:/Users/lenovo/Desktop/Electrical_Circuit_Simulator/dependencies/glfw-3.4.bin.WIN64/lib-mingw-w64"  -L"C:/Users/lenovo/Desktop/Electrical_Circuit_Simulator/dependencies/glew-2.1.0/lib/Release/x64"  -lglew32s -lglfw3 -lgdi32 -lopengl32 -lComdlg32 -lOle32 -lShell32 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
