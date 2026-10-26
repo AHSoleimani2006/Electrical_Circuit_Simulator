@@ -5,7 +5,7 @@
 ![Build](https://img.shields.io/badge/Build-CMake-orange.svg)
 
 <!-- GIF 1: Replace the link below with the path to your main interface GIF -->
-![Main GUI Demo](assets/your_first_gif_name.gif)
+![Software](Videos/GIF_1.gif)
 
 ## Overview
 A lightweight, graphical analog electrical circuit simulator written entirely in C++. Inspired by the workflow of LTspice, this tool allows users to visually place components, wire them together, and simulate complex analog circuits. Developed as an Object-Oriented Programming project, it bridges software architecture with core electrical engineering principles.
@@ -22,9 +22,8 @@ A lightweight, graphical analog electrical circuit simulator written entirely in
 - **Object-Oriented Design:** Modular architecture utilizing polymorphism, allowing for the seamless addition of new electronic components without altering the core simulation loop.
 
 <!-- GIF 2 & 3: Replace the links below with the paths to your simulation and sub-circuit GIFs -->
-### Demonstrations
-![Simulation Graphs](assets/your_second_gif_name.gif)
-![Sub-Circuit Feature](assets/your_third_gif_name.gif)
+![Software](Videos/GIF_2.gif)
+![Software](Videos/GIF_3.gif)
 
 ## Tech Stack
 - **Language:** C++ (Standard 20)
@@ -39,10 +38,10 @@ This project uses CMake, allowing it to be compiled easily from the terminal on 
 
 ```bash
 # 1. Clone the repository
-git clone [INSERT_YOUR_GITHUB_REPOSITORY_LINK_HERE]
+git clone [https://github.com/AHSoleimani2006/Electrical_Circuit_Simulator.git]
 
 # 2. Enter the project directory
-cd [INSERT_YOUR_REPOSITORY_NAME_HERE]
+cd [Electrical_Circuit_Simulator]
 
 # 3. Create a build directory and navigate into it
 mkdir build
